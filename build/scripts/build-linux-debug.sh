@@ -1,0 +1,1 @@
+gcc main.c -I include -L lib -lraylib -lgdi32 -lwinmm -o main

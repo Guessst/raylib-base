@@ -1,0 +1,2 @@
+- build raylib src
+- build for windows 32bit
