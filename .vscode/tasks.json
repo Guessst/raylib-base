@@ -4,9 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build debug with build-windows-debug.bat",
+            "label": "Build debug with build-windows-64-debug.bat",
             "type": "shell",
-            "command": "${workspaceFolder}/build/scripts/build-windows-debug.bat",
+            "command": "${workspaceFolder}/build/scripts/build-windows-64-debug.bat",
         },
     ]
 }

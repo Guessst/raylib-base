@@ -10,7 +10,7 @@
             "request": "launch",
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
-            "program": "${workspaceFolder}/build/windows/debug/game.exe",
+            "program": "${workspaceFolder}\\build\\windows-debug-64\\game.exe",
             "MIMode": "gdb",
             "miDebuggerPath": "C:\\progs\\w64devkit-x64\\bin\\gdb.exe",
             "setupCommands": [
@@ -25,7 +25,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "Build debug with build-windows-debug.bat"
+            "preLaunchTask": "Build debug with build-windows-64-debug.bat"
         }
     ]
 }
